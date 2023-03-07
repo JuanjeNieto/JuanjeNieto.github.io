@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Ciclo de vida del Software - Entornos de Desarrollo</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Ciclo de vida del Software";
+        var mkdocs_page_input_path = "Tema_1_Ejercicios.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Entornos de Desarrollo
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Tema 1</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Ciclo de vida del Software</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#ciclo-de-vida-del-software">Ciclo de vida del software</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1define-ciclo-de-vida-del-software">1.Define "Ciclo de vida del software".</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2nombra-las-fases-principales-del-desarrollo-de-software-y-explica-brevemente-que-se-hace-en-cada-una-de-ellas">2.Nombra las fases principales del desarrollo de software y explica brevemente que se hace en cada una de ellas.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3explica-brevemente-en-que-consiste-el-modelo-en-cascada-cuando-hablamos-de-desarrollo-de-software">3.Explica brevemente en qué consiste el modelo en cascada cuando hablamos de desarrollo de software.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4ventajas-e-inconvenientes-del-modelo-en-cascada">4.Ventajas e inconvenientes del modelo en cascada.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5que-se-entiende-por-verificacion-y-por-validacion">5.¿Qué se entiende por verificación? ¿Y por validación?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#6explica-como-funciona-el-modelo-de-desarrollo-mediante-creacion-de-prototipos">6.Explica como funciona el modelo de desarrollo mediante creación de prototipos.</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#metodologias-agiles">Metodologías ágiles</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-kanban-haz-un-resumen-de-la-metodologia-kanban-e-indica-sus-diferencias-frente-a-scrum">1. KANBAN. Haz un resumen de la metodología Kanban e indica sus diferencias frente a SCRUM.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-scrum-explica-como-funciona-scrum">2. SCRUM. Explica como funciona Scrum.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-scrum-define-los-siguientes-terminos">3. SCRUM. Define los siguientes términos</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-scrum-haz-un-resumen-de-los-requisitos-para-poder-utilizar-scrum">4. SCRUM. Haz un resumen de los requisitos para poder utilizar Scrum.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5-xp-explica-los-5-valores-de-la-programacion-extrema">5. XP.  Explica los 5 valores de la Programación Extrema.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#6-xp-cuales-son-las-caracteristicas-distintivas-de-xp-frente-a-otras-metodologias-agiles-explicalas">6. XP. ¿Cuáles son las características distintivas de XP frente a otras metodologías ágiles? Explícalas</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Tema1lenguajes/">Lenguajes de Programación</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tema 2</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Tema2_herramientas_Desarrollo/">Herramientas de Desarrollo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Tema2ei/">Entornos integrados de Desarrollo (IDE)</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tema 3-Control de Versiones</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../SistemaControlVersiones/">Actividades - control de versiones</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tema 4-Optimización</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../T4-optimizacion/">T4 Optimización y Documentación</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Entornos de Desarrollo</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Tema 1 &raquo;</li>
+      <li>Ciclo de vida del Software</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="tema-1">Tema 1</h1>
+<h2 id="ciclo-de-vida-del-software">Ciclo de vida del software</h2>
+<h3 id="1define-ciclo-de-vida-del-software">1.Define "Ciclo de vida del software".</h3>
+<p>Es un proceso que consta de una serie de pasos que buscan garantizar que los programas creados son eficientes, fiables, seguros y responden a las necesidades de los usuarios finales. Como el ciclo de la vida de un ser humano.</p>
+<h3 id="2nombra-las-fases-principales-del-desarrollo-de-software-y-explica-brevemente-que-se-hace-en-cada-una-de-ellas">2.Nombra las fases principales del desarrollo de software y explica brevemente que se hace en cada una de ellas.</h3>
+<ul>
+<li>ANÁLISIS: Proceso en el que se determina y analiza qué programa nos piden y como lo vamos a desarrollar.</li>
+<li>DISEÑO: Se descompone y organizamos los distintos elementos para el desarrollo.</li>
+<li>CODIFICACIÓN: Se escribe el código fuente de cada componente.</li>
+<li>PRUEBAS: Se prueba el programa y se intentan buscar defectos para solucionarlos.</li>
+<li>MANTENIMIENTO: Se revisa el programa como en pasos anteriores para garantizar su funcionamiento.</li>
+</ul>
+<h3 id="3explica-brevemente-en-que-consiste-el-modelo-en-cascada-cuando-hablamos-de-desarrollo-de-software">3.Explica brevemente en qué consiste el modelo en cascada cuando hablamos de desarrollo de software.</h3>
+<p>Hablamos del modelo de desarrollo de software más antiguo, con las fases principales del desarrollo y el cuál siempre sigue el orden rígido.</p>
+<h3 id="4ventajas-e-inconvenientes-del-modelo-en-cascada">4.Ventajas e inconvenientes del modelo en cascada.</h3>
+<p>Está anticuado y obsoleto, y se adapta mal a los cambios de especificaciones que en el desarrollo debe ser continuo por parte del cliente.</p>
+<h3 id="5que-se-entiende-por-verificacion-y-por-validacion">5.¿Qué se entiende por verificación? ¿Y por validación?</h3>
+<ul>
+<li>Verificación: Comprueba que el software cumple con los requisitos especificados.</li>
+<li>Validación: Comprueba que el software es correcto con respecto a lo que el cliente pide.</li>
+</ul>
+<h3 id="6explica-como-funciona-el-modelo-de-desarrollo-mediante-creacion-de-prototipos">6.Explica como funciona el modelo de desarrollo mediante creación de prototipos.</h3>
+<p>Se crea un prototipo durante la fase de análisis y será probado por el cliente para ajustar y refinar el software, y así las veces que haga falta.</p>
+<h2 id="metodologias-agiles">Metodologías ágiles</h2>
+<h3 id="1-kanban-haz-un-resumen-de-la-metodologia-kanban-e-indica-sus-diferencias-frente-a-scrum">1. KANBAN. Haz un resumen de la metodología Kanban e indica sus diferencias frente a SCRUM.</h3>
+<p>Es denominado sistema de tarjetas, puesto que va ordenando las tareas y los procesos en tarjetas en el denominado tablero Kanban. Controla la fabricación del producto en la cantidad de tiempo necesario y ayuda al flujo de trabajo con la entrega continua.</p>
+<p>Sus diferencias con Scrum son tales como la cadencia, en Scrum es de longitud fija y en Kanban es de flujo continuo. Así como los cambios, en Kanban se trabaja esperando el cambio en cualquier momento mientras en Scrum se trabaja para evitar cambios repentinos. </p>
+<h3 id="2-scrum-explica-como-funciona-scrum">2. SCRUM. Explica como funciona Scrum.</h3>
+<p>Scrum funciona por Sprints (o iteraciones) regulares cada 2-4 semanas con el cliente, y reuniones face to face diarías con el equipo de trabajo. Después se harán retrospectivas y reviews para comprobar que se desarrolla en condiciones.</p>
+<h3 id="3-scrum-define-los-siguientes-terminos">3. SCRUM. Define los siguientes términos</h3>
+<ul>
+<li>Sprint Backlog: Subconjunto de objetivos/requisitos del Product Backlog seleccionado para la iteración actual y su plan de tareas de desarrollo</li>
+<li>Product backlog: El product backlog es un listado de todas las tareas que se pretenden hacer durante el desarrollo de un proyecto.</li>
+</ul>
+<h3 id="4-scrum-haz-un-resumen-de-los-requisitos-para-poder-utilizar-scrum">4. SCRUM. Haz un resumen de los requisitos para poder utilizar Scrum.</h3>
+<p>Cultura de empresa, compromiso del cliente, compromiso de la dirección, compromiso conjunto y colaboración de los miembros del equipo, relación entre proveedor y cliente, Facilidad para realizar cambios, Tamaño de cada equipo, Dedicación del equipo a tiempo completo, estabilidad de los miembros del equipo.</p>
+<h3 id="5-xp-explica-los-5-valores-de-la-programacion-extrema">5. XP.  Explica los 5 valores de la Programación Extrema.</h3>
+<ul>
+<li>Simplicidad: Los programas deben ser los más sencillos posibles y tener la funcionalidad necesaria que se indican en los requisitos.</li>
+<li>Comunicación: La comunicación entre programadores debe prevalecer.</li>
+<li>Retroalimentación: Las pruebas que se le realizan al software nos mantiene informados del grado de fiabilidad del sistema.</li>
+<li>Valentía o coraje: Asumir retos, ser valientes ante los problemas y afrontarlos.</li>
+<li>Respeto o humildad: una buena dosis de humildad siempre es de agradecer.</li>
+</ul>
+<h3 id="6-xp-cuales-son-las-caracteristicas-distintivas-de-xp-frente-a-otras-metodologias-agiles-explicalas">6. XP. ¿Cuáles son las características distintivas de XP frente a otras metodologías ágiles? Explícalas</h3>
+<p>Favorece a la eficacia y sencillez, con el trabajo en equipo por parejas, y es una metodología ágil que se debe adaptar a nosotros, no nosotros adaptarnos a ella.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Tema1lenguajes/" class="btn btn-neutral float-right" title="Lenguajes de Programación">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="../Tema1lenguajes/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
