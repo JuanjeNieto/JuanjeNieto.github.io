@@ -1,15 +1,22 @@
 site_name: Entornos de Desarrollo
 
 nav: 
-    - Tema 1: 
-        - Ciclo de vida del Software: Tema_1_Ejercicios.md
-        - Lenguajes de Programación: Tema1lenguajes.md
-    - Tema 2:    
-        - Herramientas de Desarrollo: Tema2_herramientas_Desarrollo.md
-        - Entornos integrados de Desarrollo (IDE): Tema2ei.md
-    - Tema 3-Control de Versiones: 
-        - SistemaControlVersiones.md
-    - Tema 4-Optimización: 
-        - T4-optimizacion.md
-
+    - Entornos: 
+            - Tema 1: 
+                - Ciclo de vida del Software: Tema_1_Ejercicios.md
+                - Lenguajes de Programación: Tema1lenguajes.md
+            - Tema 2:    
+                - Herramientas de Desarrollo: Tema2_herramientas_Desarrollo.md
+                - Entornos integrados de Desarrollo (IDE): Tema2ei.md
+            - Tema 3-Control de Versiones: 
+                - SistemaControlVersiones.md
+            - Tema 4-Optimización: 
+                - T4-optimizacion.md
+    - Lenguajes: 
+        - Sobre la asignatura: 
+            - Lenguajes de Marca: lenguajes.md
+            - Creaccion de la página: creaccion.md
+        - Blogs varios:
+            - One Piece: blog1.md
+            
 theme: readthedocs
