@@ -1,7 +1,6 @@
 site_name: Página MkDocs
 
 nav: 
-    - Entornos: 
             - Tema 1: 
                 - Ciclo de vida del Software: Tema_1_Ejercicios.md
                 - Lenguajes de Programación: Tema1lenguajes.md
@@ -12,11 +11,6 @@ nav:
                 - SistemaControlVersiones.md
             - Tema 4-Optimización: 
                 - T4-optimizacion.md
-    - Lenguajes: 
-        - Sobre la asignatura: 
-            - Lenguajes de Marca: lenguajes.md
-            - Creaccion de la página: creaccion.md
-        - Blogs varios:
-            - One Piece: blog1.md
+
             
 theme: readthedocs
